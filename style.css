@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Tiro+Devanagari+Marathi&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(16, 16, 16);
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Tiro Devanagari Marathi', serif;
+}
+
+header {
+    background-image: url('https://cdn.pixabay.com/photo/2013/07/13/13/32/demon-161049_1280.png');
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    margin-bottom: 10px;    
+}
+
+header h1 {
+    text-align: center;
+    background-color: rgba(0, 7, 204, 0.381);
+    height: 90vh;
+    line-height: 90vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px;
+    
+}
+
+.img {
+    background-image: url('https://vean-tattoo.pl/media/images/by-tacosauceninj.2e16d0ba.fill-1440x960-c100.format-jpeg.jpg');
+    background-position: 45% center;
+    background-size: cover;
+    height: 150px;
+}
+
+h3 {
+    padding: 20px;
+}
+
+.coffee p {
+    padding: 20px;
+    line-height: 1.5;
+}
+
+footer {
+    padding: 20px 30px;
+    background-color: rgb(47, 47, 47);
+    margin-top: 10px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+    background-color: rgb(47, 47, 47);
+}
+
+@media (min-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: row; /*domyślny układ popziomy*/
+        flex-wrap: wrap;
+    }
+
+    .coffee {
+        width: 50%;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 992px){
+    .coffee{
+        width: calc(100%/3);
+        background-color: rgba(59, 59, 59, 0.53);
+    }
+}
+
+
